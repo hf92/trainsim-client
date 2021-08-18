@@ -1,4 +1,4 @@
-# Train Sim User
+# Train Sim Client
 
 A work-in-progress application to simulate purchasing train tickets. This project is a sub-project of the micro-service version of Train Sim, modified from the monolithic version and is used for an assignment of SE 577 at Drexel University.
 
@@ -24,12 +24,12 @@ Contains three services.
 - Trainsim-itinerary-db is the database linked to Trainsim-itinerary-service.
 - Trainsim-planner is unchanged.
 
-### Trainsim-user (This Repo)
+### Trainsim-user 
 Contains two services. 
 - Trainsim-user-service is spilt from Trainsim-api, provides user login under /api/user at localhost:8002
 - Trainsim-user-db is the database linked to Trainsim-user-service.
 
-### Trainsim-client
+### Trainsim-client (This Repo)
 The same Trainsim-client, the nginx config is changed to redirect requests to localhost:8001 and localhost:8002 instead of trainsim-api.
 
 ## Development and Debugging
