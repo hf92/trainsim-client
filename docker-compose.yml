@@ -6,6 +6,3 @@ services:
             - ./dist:/usr/share/nginx/html
         ports:
             - 8000:80
-        external_links:
-            - trainsim-user-service
-            - trainsim-itinenary-service
